@@ -14,7 +14,8 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-  origin: ["http://localhost:5173", "https://airbnb-usf3.onrender.com"],
+  origin: ["http://localhost:5173", 
+    "https://airbnb-mocha-one.vercel.app"],
   credentials: true
 }));
 
